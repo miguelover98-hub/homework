@@ -1,0 +1,94 @@
+/* ESTILO DEL H1 */
+
+h1 {
+    color: blue;
+}
+
+
+/* ESTILO DE LAS IMAGENES */
+
+img {
+    width: 400px;
+}
+
+
+/* ESTILO DEL SPAN */
+
+#spanId {
+    font-size: 18px;
+    margin: 50px;
+}
+
+
+/* ESTILO DEL TERCER DIV */
+
+#thirdDiv {
+    height: 600px;
+    width: 500px;
+
+    background-color: lightblue;
+
+    padding: 50px;
+
+    border: 5px solid blue;
+}
+
+
+/* ESTILOS EXTRA */
+
+/* Imagen de fondo para toda la página */
+
+body {
+    background-image: url("fondo.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    text-align: center;
+
+    font-family: Arial, sans-serif;
+}
+
+
+/* Centrar los div */
+
+.divClass {
+    width: 80%;
+    margin: 30px auto;
+    padding: 20px;
+
+    background-color: rgba(255, 255, 255, 0.9);
+
+    border-radius: 10px;
+}
+
+
+/* Centrar el tercer div */
+
+#thirdDiv {
+    margin: 30px auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+
+/* Flexbox */
+
+.divClass {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Espacio entre las comidas */
+
+li {
+    margin-bottom: 20px;
+}
