@@ -1,0 +1,52 @@
+/*
+Lección 3: Tarea de posicionamiento con CSS.
+*/
+
+/* Ejercicio 1: Centrar el texto en un span */
+
+#ejercicioUno {
+  display: block;
+  text-align: center;
+}
+
+
+/* Ejercicio 2: Ocultar el header */
+
+#ejercicioDos {
+   display: none;
+
+}
+
+
+/* Ejercicio 3: Posicionar la imagen */
+
+#ejercicioTres {
+  position: absolute;
+  top: 100px;
+  left: 200px;
+}
+
+
+/* Ejercicio 4: Fijar el header */
+
+#ejercicioCuatro {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+
+/* Ejercicio 5: Organizar los elementos del header */
+
+#ejercicioCinco {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+/* Ejercicio 6: Cambiar la dirección de los elementos */
+
+#ejercicioCinco {
+  flex-direction: row-reverse;
+}
